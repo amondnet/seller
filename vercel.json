@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/image/:path*",
-      "destination": "https://sellernote.vercel.app/image/:path*"
-    }
-  ]
-}
