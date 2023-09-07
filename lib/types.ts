@@ -21,6 +21,10 @@ export interface Params extends ParsedUrlQuery {
   pageId: string
 }
 
+export interface PagesParams extends ParsedUrlQuery {
+  pageId: string[]
+}
+
 export interface Site {
   name: string
   domain: string
